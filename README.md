@@ -47,7 +47,7 @@ Add notes about how to use the system.
 
 ## ⛏️ Desenvolvido pelas Tecnologias <a name = "built_using"></a>
 
-- [Potgres](https://www.postgresql.org/) - Database
+- [Postgres](https://www.postgresql.org/) - Database
 - [Express](https://expressjs.com/) - Server Framework
 - [React](https://react.dev/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
