@@ -1,14 +1,18 @@
 import { faker } from "@faker-js/faker";
-import React from "react";
+import React, { useState } from "react";
 import AdvantagesOffer from "../components/AdvantagesOffer";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import ModalDocument from "../components/ModalDocument";
 import Steps from "../components/Steps";
 import Team from "../components/Team";
 
 function Landing() {
+  const [open, setOpen] = useState(true);
+
   return (
     <div className="bg-gray-50">
+      <ModalDocument open={open} setOpen={setOpen} />
       <Header />
       <section className="pt-12 pb-12 sm:pb-16 lg:pt-8">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -24,14 +28,14 @@ function Landing() {
                 </p>
               </div>
               <div className=" mt-8 hidden lg:ml-auto lg:flex lg:items-center lg:space-x-8 xl:space-x-10">
-                <a
-                  href="#"
-                  title=""
+                <button
                   className="px-12 py-2 text-base font-bold leading-7 text-white transition-all duration-200 bg-gray-900 border border-transparent rounded-xl hover:bg-gray-600 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
-                  role="button"
+                  onClick={() => {
+                    setOpen(true);
+                  }}
                 >
                   Submeta o seu comprovativos hoje
-                </a>
+                </button>
               </div>
               <div className="flex items-center justify-center mt-10 space-x-6 lg:justify-start sm:space-x-8">
                 <div className="flex items-center">
