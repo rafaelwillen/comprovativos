@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="./marketing/public/assets/brandmark-design-bg-white.png" alt="logo"></a>
+ <img src="./marketing/public/assets/brandmark-design-bg-white.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">COMPROVATIVOS</h3>
@@ -17,43 +17,99 @@
 ---
 
 <p align="center"> 
-    Comprovativos é um serviço de auxilio para as pessoas e comerciantes para verficação de comprovativos de transaçāes bancarias gerados por entidades Angolanas.
+Comprovativos is a service that used to verify documents pdf generated from bank and fintech in Angola.
     <br> 
-    Esta solução visa em garantir uma segurança quando recebe um pagamento por transferência bancaria sabendo onde validar se o documento foi alterado ou não.
 </p>
 
 ## 📝 Table of Contents
 
-- [SOBRE](#about)
-<!-- - [Getting Started](#getting_started) -->
-<!-- - [Deployment](#deployment) -->
-- [USABILIDADE](#usage)
-<!-- - [Built Using](#built_using) -->
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
 - [TODO](../TODO.md)
-<!-- - [Contributing](../CONTRIBUTING.md) -->
-- [AUTOR](#authors)
-<!-- - [Acknowledgments](#acknowledgement) -->
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
 
-## 🧐 Sobre <a name = "about"></a>
+## 🧐 About <a name = "about"></a>
 
-Somos uma entidade dee auxilio para as pessoas que pretendem ter a certeza se os comprovativos recebidos são verdadeiros ou falsos.
-Analizamos os comprovativos bancarios mostrando os possiveis indicios de alteração do documento submetido.
+Write about 1-2 paragraphs describing the purpose of your project.
 
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-## 🎈 Usabilidade <a name="usage"></a>
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them.
+
+```
+Give examples
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running.
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo.
+
+## 🔧 Running the tests <a name = "tests"></a>
+
+Explain how to run the automated tests for this system.
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## 🎈 Usage <a name="usage"></a>
 
 Add notes about how to use the system.
 
+## 🚀 Deployment <a name = "deployment"></a>
 
-## ⛏️ Desenvolvido pelas Tecnologias <a name = "built_using"></a>
+Add additional notes about how to deploy this on a live system.
 
-- [Postgres](https://www.postgresql.org/) - Database
+## ⛏️ Built Using <a name = "built_using"></a>
+
+- [MongoDB](https://www.mongodb.com/) - Database
 - [Express](https://expressjs.com/) - Server Framework
-- [React](https://react.dev/) - Web Framework
+- [VueJs](https://vuejs.org/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@Angleu](https://github.com/Angleu) - Idea & Initial work
+- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
 
-<!-- See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project. -->
+See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- References
