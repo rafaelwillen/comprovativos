@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 
 type IProps = {
   setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 };
 function Steps({ setOpen }: IProps) {
   return (
-    <section className="y-10 bg-gray-50 sm:py-16 lg:py-24">
+    <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
       <div className="flex flex-col items-center justify-center gap-6">
         <div className=" px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">
@@ -76,13 +76,13 @@ function Steps({ setOpen }: IProps) {
           </div>
         </div>
         <button
-          className="px-12 py-2 text-base font-bold leading-7 text-white transition-all duration-200 bg-gray-900 border border-transparent rounded-xl hover:bg-gray-600 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+          className="px-6 py-2 lg:px-12 justify-center lg:py-2 text-base font-bold leading-7 text-white transition-all duration-200 bg-gray-900 border border-transparent rounded-xl hover:bg-gray-600 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
           role="button"
           onClick={() => {
             setOpen(true);
           }}
         >
-          Submeta o seu comprovativos hoje
+          Submeta o seu comprovativo
         </button>
       </div>
     </section>

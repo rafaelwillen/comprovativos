@@ -25,46 +25,43 @@ function Landing() {
                   desconfiar de comprovativos suspeitos.
                 </p>
               </div>
-              <div className=" mt-8 hidden lg:ml-auto lg:flex lg:items-center lg:space-x-8 xl:space-x-10">
+              <div className=" mt-8 flex items-center lg:space-x-8 xl:space-x-10 md:self-center lg:self-start">
                 <button
-                  className="px-12 py-2 text-base font-bold leading-7 text-white transition-all duration-200 bg-gray-900 border border-transparent rounded-xl hover:bg-gray-600 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                  className="px-6 py-2 lg:px-12 justify-center lg:py-2 text-base font-bold leading-7 text-white transition-all duration-200 bg-gray-900 border border-transparent rounded-xl hover:bg-gray-600 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                   onClick={() => {
                     setOpen(true);
                   }}
                 >
-                  Submeta o seu comprovativos hoje
+                  Submeta o seu comprovativos
                 </button>
               </div>
-              <div className=" flex items-center justify-center mt-10 space-x-6 lg:justify-start sm:space-x-8">
-                <div className="flex items-center">
+              <div className=" flex items-center justify-center mt-10 gap-6 flex-col lg:flex-row lg:justify-start uppercase">
+                <div className="block lg:flex space-y-1 text-center lg:text-left items-center">
                   <p className="text-3xl font-medium text-gray-900  font-pj">
                     {faker.random.numeric(3)}
                   </p>
                   <p className="ml-3 text-sm text-gray-900 font-pj">
                     Documentos
-                    <br />
-                    Analizados
+                    <br className="hidden lg:block" /> Analizados
                   </p>
                 </div>
 
-                <div className="flex items-center">
+                <div className="block lg:flex space-y-1 text-center lg:text-left items-center">
                   <p className="text-3xl font-medium text-gray-900 font-pj">
                     {faker.random.numeric(3)}
                   </p>
                   <p className="ml-3 text-sm text-gray-900 font-pj">
                     Comprovativos
-                    <br />
-                    Verdadeiros
+                    <br className="hidden lg:block" /> Verdadeiros
                   </p>
                 </div>
-                <div className="flex items-center">
+                <div className="block lg:flex space-y-1 text-center lg:text-left items-center">
                   <p className="text-3xl font-medium text-gray-900 font-pj">
                     {faker.random.numeric(3)}
                   </p>
                   <p className="ml-3 text-sm text-gray-900 font-pj">
                     Documentos
-                    <br />
-                    Falsos
+                    <br className="hidden lg:block" /> Falsos
                   </p>
                 </div>
               </div>
