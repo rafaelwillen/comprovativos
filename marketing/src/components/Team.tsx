@@ -14,7 +14,7 @@ function Team() {
           <div>
             <img
               className="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44 grayscale filter"
-              src="https://cdn.rareblocks.xyz/collection/clarity/images/team/1/team-member-1.png"
+              src="https://media.licdn.com/dms/image/D4E03AQFdeqhP9SeD_A/profile-displayphoto-shrink_800_800/0/1665247827850?e=1685577600&v=beta&t=xzy2IJFA53GS4a8Vp-K9Cb4NmbkwPu6QsRzsY1w5s7I"
               alt=""
             />
             <p className="mt-5 text-lg font-bold text-gray-900 sm:text-xl sm:mt-8 font-pj">

@@ -12,8 +12,8 @@ function Header() {
             >
               <img
                 className="w-auto h-8"
-                src="./assets/brandmark-design.png"
-                alt=""
+                src="/assets/brandmark-design.png"
+                alt="logo"
               />
             </a>
           </div>

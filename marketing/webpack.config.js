@@ -3,10 +3,6 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 
 const deps = require("./package.json").dependencies;
 module.exports = {
-  output: {
-    publicPath: "http://localhost:8081/",
-  },
-
   resolve: {
     extensions: [".tsx", ".ts", ".jsx", ".js", ".json"],
   },
@@ -43,8 +39,9 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "marketing",
       filename: "remoteEntry.js",
-      remotes: {},
-      exposes: {},
+      exposes: {
+        "./MarketingApp": "./src/botstrap.js",
+      },
       shared: {
         ...deps,
         react: {

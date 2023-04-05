@@ -2,22 +2,20 @@ import { faker } from "@faker-js/faker";
 import React, { useState } from "react";
 import AdvantagesOffer from "../components/AdvantagesOffer";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
 import ModalDocument from "../components/ModalDocument";
 import Steps from "../components/Steps";
 import Team from "../components/Team";
 
 function Landing() {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-50 w-full">
       <ModalDocument open={open} setOpen={setOpen} />
-      <Header />
-      <section className="pt-12 pb-12 sm:pb-16 lg:pt-8">
+      <div className=" w-full pt-12 pb-12 sm:pb-16 lg:pt-8">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="grid max-w-lg grid-cols-1 mx-auto lg:max-w-full lg:items-center lg:grid-cols-2 gap-y-12 lg:gap-x-16">
-            <div>
+            <div className="w-full flex flex-col">
               <div className="text-center lg:text-left">
                 <h1 className="text-4xl font-bold leading-tight text-gray-900 sm:text-5xl sm:leading-tight lg:leading-tight lg:text-6xl font-pj">
                   Nunca mais terão duvidas com os comprovativos Bancarios
@@ -37,9 +35,9 @@ function Landing() {
                   Submeta o seu comprovativos hoje
                 </button>
               </div>
-              <div className="flex items-center justify-center mt-10 space-x-6 lg:justify-start sm:space-x-8">
+              <div className=" flex items-center justify-center mt-10 space-x-6 lg:justify-start sm:space-x-8">
                 <div className="flex items-center">
-                  <p className="text-3xl font-medium text-gray-900 sm:text-4xl font-pj">
+                  <p className="text-3xl font-medium text-gray-900  font-pj">
                     {faker.random.numeric(3)}
                   </p>
                   <p className="ml-3 text-sm text-gray-900 font-pj">
@@ -50,7 +48,7 @@ function Landing() {
                 </div>
 
                 <div className="flex items-center">
-                  <p className="text-3xl font-medium text-gray-900 sm:text-4xl font-pj">
+                  <p className="text-3xl font-medium text-gray-900 font-pj">
                     {faker.random.numeric(3)}
                   </p>
                   <p className="ml-3 text-sm text-gray-900 font-pj">
@@ -60,7 +58,7 @@ function Landing() {
                   </p>
                 </div>
                 <div className="flex items-center">
-                  <p className="text-3xl font-medium text-gray-900 sm:text-4xl font-pj">
+                  <p className="text-3xl font-medium text-gray-900 font-pj">
                     {faker.random.numeric(3)}
                   </p>
                   <p className="ml-3 text-sm text-gray-900 font-pj">
@@ -72,7 +70,7 @@ function Landing() {
               </div>
             </div>
 
-            <div>
+            <div className="w-full">
               <img
                 className="w-full"
                 src="https://d33wubrfki0l68.cloudfront.net/d6f1462500f7670e0db6b76b35054a081679a5a0/0ce15/images/hero/5.1/illustration.png"
@@ -81,9 +79,9 @@ function Landing() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <AdvantagesOffer />
-      <Steps />
+      <Steps setOpen={setOpen} />
       <Team />
       <Footer />
     </div>
