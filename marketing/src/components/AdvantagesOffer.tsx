@@ -151,7 +151,7 @@ function AdvantagesOffer() {
             </h3>
             <p className="mt-5 text-base text-gray-600 font-pj">
               Pretendemos ser uma forma de pagamento online mais segura
-              valindando os comprovativos tempo real.
+              validando os comprovativos tempo real.
             </p>
           </div>
         </div>

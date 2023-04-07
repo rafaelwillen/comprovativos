@@ -107,7 +107,7 @@ function Footer() {
                   title=""
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
-                  Politica de Privacidade
+                  Política de Privacidade
                 </a>
               </li>
             </ul>

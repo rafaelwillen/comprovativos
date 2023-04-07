@@ -18,14 +18,14 @@ function Landing() {
             <div className="w-full flex flex-col">
               <div className="text-center lg:text-left">
                 <h1 className="text-4xl font-bold leading-tight text-gray-900 sm:text-5xl sm:leading-tight lg:leading-tight lg:text-6xl font-pj">
-                  Nunca mais terão duvidas com os comprovativos Bancarios
+                  Nunca mais terão duvidas com os comprovativos Bancários
                 </h1>
                 <p className="mt-2 text-lg text-gray-600 sm:mt-8 font-inter">
-                  Analisamos os seus comprovativos bancarios para nunca mais
+                  Analisamos os seus comprovativos bancários para nunca mais
                   desconfiar de comprovativos suspeitos.
                 </p>
               </div>
-              <div className=" mt-8 flex items-center lg:space-x-8 xl:space-x-10 md:self-center lg:self-start">
+              <div className=" mt-8 flex justify-center items-center lg:space-x-8 xl:space-x-10 md:self-center lg:self-start">
                 <button
                   className="px-6 py-2 lg:px-12 justify-center lg:py-2 text-base font-bold leading-7 text-white transition-all duration-200 bg-gray-900 border border-transparent rounded-xl hover:bg-gray-600 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                   onClick={() => {
@@ -42,7 +42,7 @@ function Landing() {
                   </p>
                   <p className="ml-3 text-sm text-gray-900 font-pj">
                     Documentos
-                    <br className="hidden lg:block" /> Analizados
+                    <br className="hidden lg:block" /> Analisados
                   </p>
                 </div>
 

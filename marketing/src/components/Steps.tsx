@@ -10,7 +10,7 @@ function Steps({ setOpen }: IProps) {
         <div className=" px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-              Como verficiar o seu comprovativo?
+              Como verificar o seu comprovativo?
             </h2>
             <p className="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">
               A validação é muito simples e rápido
@@ -35,10 +35,10 @@ function Steps({ setOpen }: IProps) {
                   </span>
                 </div>
                 <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">
-                  Submeta o seu comprovatido Digital
+                  Submeta o seu comprovativo Digital
                 </h3>
                 <p className="mt-4 text-base text-gray-600">
-                  Receba o comprovatido no formato PDF de e submeta a baixo.
+                  Receba o comprovativo no formato PDF de e submeta a baixo.
                 </p>
               </div>
 
@@ -69,7 +69,7 @@ function Steps({ setOpen }: IProps) {
                 </h3>
                 <p className="mt-4 text-base text-gray-600">
                   Após clicar no botão para submeter o documento os nossos
-                  algoritmos analizará se o documento foi alterado ou não.
+                  algoritmos analisará se o documento foi alterado ou não.
                 </p>
               </div>
             </div>
